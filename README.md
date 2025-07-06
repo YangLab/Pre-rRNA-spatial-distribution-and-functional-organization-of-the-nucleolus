@@ -42,7 +42,7 @@ tail -n +3 linear-RNA_Count.txt | perl -alne '@total=split(/,/,$ENV{'mappable_fr
 sed -i -E "1iEnsemblID\t$sample_list" Counts.txt
 ```
 ### 1.6 Get differentially expressed pre-rRNA processing factors
-performed in R v4.3
+perform in R v4.3
 ```
 source('DESeq2.R')
 
