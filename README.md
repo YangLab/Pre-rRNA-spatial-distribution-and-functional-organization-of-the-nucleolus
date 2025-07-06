@@ -87,6 +87,9 @@ Count2DEG(highexpressed_count,col = 'Gene.name')%>%
 DEG(colData = sample,formula = ~time)%>%
 DESeq2fillNA
 
+pre_rRNA_processing_gene<-
+read.table('/path/to/pre_rRNA_processing_factors.txt')
+
 pre-rRNA_processing_factors_DEG <-
 left_join(pre_rRNA_processing_gene[1],DEG,by=c('Gene.name'='Row.names'))
 ```
