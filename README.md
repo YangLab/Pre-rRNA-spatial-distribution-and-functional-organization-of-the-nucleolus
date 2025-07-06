@@ -45,6 +45,7 @@ sed -i -E "1iEnsemblID\t$sample_list" Counts.txt
 perform in R v4.3
 ```
 source('DESeq2.R')
+library(org.Hs.eg.db)
 
 count <-
 read.table('/path/to/Counts.txt',header=T)
