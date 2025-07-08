@@ -1,4 +1,4 @@
-Segerated pre-rRNA processing in nucleolar subdomains coordinates with celluar demands
+Pre-rRNA spatial distribution and functional organization of the nucleolus
 ======================================================================================
 Editing date: 20250706  
 Author: Yu-Yao Zhang  
